@@ -6,5 +6,6 @@ const generateScreenshot=async (ssName)=>{
     // created in current working directory named ssName
     console.log(imgPath);
   });
+  return ssName;
 }
 module.exports = generateScreenshot;
