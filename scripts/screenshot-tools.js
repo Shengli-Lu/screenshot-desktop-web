@@ -7,5 +7,4 @@ const generateScreenshot=async (ssName)=>{
     console.log(imgPath);
   });
 }
-generateScreenshot("test.jpg");
 module.exports = generateScreenshot;
