@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <script>
+    function refreshImage(imgElement, imgURL) {
+      // create a new timestamp 
+      var timestamp = new Date().getTime();
+      var el = document.getElementById(imgElement);
+      var queryString = "?t=" + timestamp;
+      el.src = imgURL + queryString;
+    }       
+  </script>
+  <h1>
+    <%= title %>
+  </h1>
+  </p>
+  <img id="testimg" src="./images/test.jpg">
+</body>
+
+</html>
