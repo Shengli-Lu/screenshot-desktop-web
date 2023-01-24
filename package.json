@@ -11,8 +11,10 @@
     "ejs": "~2.6.1",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
+    "iconv-lite": "^0.6.3",
     "morgan": "~1.9.1",
     "node-windows": "^1.0.0-beta.6",
+    "pm2": "^5.2.0",
     "screenshot-desktop": "^1.12.7"
   }
 }

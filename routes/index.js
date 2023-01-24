@@ -20,5 +20,4 @@ router.get('/screenshot', async function (req, res) {
 });
 
 
-
 module.exports = router;
